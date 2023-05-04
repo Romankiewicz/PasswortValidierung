@@ -8,7 +8,7 @@ public class PasswortValidierung {
 
 
 	public static boolean containsNumbers(String password) {
-		return password.matches(".*[0-9].*");
+		return password.matches(".*\\d.*");
 	}
 
 	public static void main(String[] args) {
